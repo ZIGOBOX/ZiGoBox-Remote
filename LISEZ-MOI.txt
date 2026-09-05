@@ -1,0 +1,20 @@
+ZIGOBOX REMOTE - METHODE GITHUB SUR TELEPHONE
+
+Tu n'as qu'UN SEUL fichier a copier dans GitHub : build-apk.yml
+
+Dans GitHub :
+1. Cree un depot nomme ZiGoBox-Remote et choisis Private.
+2. Dans le depot : Add file > Create new file.
+3. Dans le champ du nom du fichier, ecris exactement :
+   .github/workflows/build-apk.yml
+4. Ouvre le fichier build-apk.yml fourni ici, fais Tout selectionner > Copier.
+5. Colle tout dans GitHub.
+6. Appuie sur Commit changes.
+7. Va dans Actions > Build ZiGoBox Remote APK.
+8. Si le build ne part pas tout seul : Run workflow > Run workflow.
+9. Quand le rond devient vert, ouvre le build.
+10. Dans Artifacts, telecharge ZiGoBox-Remote-APK.
+11. Decompresse le fichier telecharge : tu trouveras app-debug.apk.
+
+Aucun fichier du projet Android n'a besoin d'etre envoye un par un :
+le fichier build-apk.yml contient deja tout le projet.
